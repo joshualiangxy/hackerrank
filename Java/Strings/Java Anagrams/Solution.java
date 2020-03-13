@@ -1,4 +1,6 @@
 import java.util.Scanner;
+import java.util.Map;
+import java.util.HashMap;
 
 public class Solution {
 
@@ -6,8 +8,8 @@ public class Solution {
         // Complete the function
         if (a.length() != b.length())
             return false;
-        java.util.Map<Character, Integer> mapA = new java.util.HashMap<>();
-        java.util.Map<Character, Integer> mapB = new java.util.HashMap<>();
+        Map<Character, Integer> mapA = new HashMap<>();
+        Map<Character, Integer> mapB = new HashMap<>();
         for (int i = 0; i < a.length(); i++) {
             char c = Character.toLowerCase(a.charAt(i));
             char d = Character.toLowerCase(b.charAt(i));

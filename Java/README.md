@@ -1,4 +1,4 @@
-Current progress: 40/64
+Current progress: `40/64`
 
 Current Badge:
 
